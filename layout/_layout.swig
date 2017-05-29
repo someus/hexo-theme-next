@@ -78,5 +78,15 @@
   {% include '_third-party/mathjax.swig' %}
   {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
+
+  <!-- highlight -->
+  <script src="{{ config.root }}highlight/highlight.min.js"></script>
+  <link rel="stylesheet" href="{{ config.root }}highlight/styles/github.css">
+
+  <script>
+    // 高亮
+    hljs.initHighlightingOnLoad();
+  </script>
+
 </body>
 </html>

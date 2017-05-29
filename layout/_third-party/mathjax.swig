@@ -3,10 +3,10 @@
     <script type="text/x-mathjax-config">
       MathJax.Hub.Config({
         tex2jax: {
-          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          inlineMath: [ ['[latex]','[/latex]'], ['$','$'], ["\\(","\\)"]  ],
           processEscapes: true,
           skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-        }
+        },
       });
     </script>
 
