@@ -31,6 +31,29 @@
 .posts-expand .post-body {
   +desktop() { text-align: justify; }
 
+  h3 {
+    &:before {
+      content: ">";
+      color: #B8B3C7;
+      padding-right: 6px;
+      left: -6.7em;
+      top: -4px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
+
+  h4 {
+    &:before {
+      content: ">>";
+      color: #B8B3C7;
+      padding-right: 6px;
+      left: -6.7em;
+      top: -4px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
 
   h2, h3, h4, h5, h6 {
     padding-top: 10px;
